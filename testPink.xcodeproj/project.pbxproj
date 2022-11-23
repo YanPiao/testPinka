@@ -16,6 +16,7 @@
 		A80E8876292DF4F800F976FF /* testPinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80E8875292DF4F800F976FF /* testPinkTests.swift */; };
 		A80E8880292DF4F800F976FF /* testPinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80E887F292DF4F800F976FF /* testPinkUITests.swift */; };
 		A80E8882292DF4F800F976FF /* testPinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80E8881292DF4F800F976FF /* testPinkUITestsLaunchTests.swift */; };
+		A80E888F292E04AE00F976FF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A80E888E292E04AD00F976FF /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A80E887B292DF4F800F976FF /* testPinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testPinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80E887F292DF4F800F976FF /* testPinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testPinkUITests.swift; sourceTree = "<group>"; };
 		A80E8881292DF4F800F976FF /* testPinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testPinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A80E888E292E04AD00F976FF /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		A80E8852292DF4F600F976FF = {
 			isa = PBXGroup;
 			children = (
+				A80E888E292E04AD00F976FF /* .gitignore */,
 				A80E885D292DF4F600F976FF /* testPink */,
 				A80E8874292DF4F800F976FF /* testPinkTests */,
 				A80E887E292DF4F800F976FF /* testPinkUITests */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A80E888F292E04AE00F976FF /* .gitignore in Resources */,
 				A80E886B292DF4F800F976FF /* LaunchScreen.storyboard in Resources */,
 				A80E8868292DF4F800F976FF /* Assets.xcassets in Resources */,
 				A80E8866292DF4F600F976FF /* Main.storyboard in Resources */,
@@ -454,7 +458,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -482,7 +486,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
